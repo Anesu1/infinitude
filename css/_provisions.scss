@@ -1,0 +1,77 @@
+.provisions{
+    background: linear-gradient(rgba(0, 0, 0, 0.5) 100%,white), url("../images/banner4.jpg");background-size:cover;background-repeat:no-repeat;
+    h2{
+        padding: 5% 10% 0;font-size: 37px;font-weight: bolder;
+    }
+    h4{
+        font-size:25px;
+    }
+    p{
+        font-size: 15px;line-height: 1.7em;margin-bottom: 23px;
+       
+    }
+    i{
+        font-size: 35px;margin-right: 26px;margin-top: 10px;
+    }
+    .provisions-inner{
+        padding:0 10%;padding-top:2%;padding-bottom:7%;
+        .pro-item{
+            display: flex;
+        }
+    }
+}
+.p{
+    padding-right:30%;
+}
+.pt5{
+    padding-top:5rem;
+}
+@media(max-width:1024px){
+    .p{
+        padding-right:0;
+    }
+    .provisions-inner{
+        .p1{
+            font-size: 15px;line-height: 24px;margin-bottom: 70px
+        }
+    }
+    .provisions{
+        h4{
+            font-size:20px;
+        }
+    }
+}
+
+@media (max-width:880px){
+    .provisions{
+        h4{
+            font-size:18px;
+        }
+        p{
+            font-size: 13px;
+            line-height: 1.5em;
+            margin-bottom: 8px;
+        }
+    }
+   
+    
+}
+
+@media (max-width:767px){
+    .pro-div{
+        padding:10% 0 0;
+    }
+    .provisions{
+        h2{
+            font-size:30px;
+        }
+    }
+    .provisions-inner{
+        .p1{
+            margin-bottom: 20px;
+        }
+    }
+    .pt5{
+        padding-top:2rem;
+    }
+}
